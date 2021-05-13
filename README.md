@@ -2,6 +2,7 @@
 https://zenn.dev/hathle/books/django-blog-book/viewer/01_ready
 
 下には自分で詰また所をメモしていくスタイル
+Chapter 02
 
 1    GitHub
     
@@ -19,7 +20,7 @@ https://zenn.dev/hathle/books/django-blog-book/viewer/01_ready
 
 3   最新 pip コマンド
     
-    これはよくわからんがバージョン古いと色々揉める原因かと
+    バージョン古いと色々揉める原因かと
 
 4   パッケージ設定
     
@@ -27,8 +28,43 @@ https://zenn.dev/hathle/books/django-blog-book/viewer/01_ready
     一個づつ pip するのはやったらいけない
 
 5   インストール
-    
     上で作ったファイルを全部ダウンロードして組んでくれる
 
 
-    
+Chapter 03
+１    Django の仕組み　料理に例えると
+モデル	説明
+Model	調理人
+Template	盛り付け係
+View	ウエイトレス
+
+用語	ファイル	レストランで例える　
+ルーティング	urls.py	URL 注文受付窓口
+ビュー	views.py	盛り付け係
+フォーム	forms.py	注文書いた伝票
+モデル	models.py	調理人が冷蔵庫（データベース）から食材出して使う
+テンプレート	xxx.html	客に出された料理
+
+
+
+２    プロジェクト作成
+
+    とりあえずコピペ
+
+３    環境設定変更
+
+    ファイルの場所の見方わからないとココで詰む
+    ディレクトリとフォルダの見方教えてもらっとこう
+
+    そして変更する場所は２８行目と１００行目あたり
+
+４    データベースのセットアップ
+
+    コピペ
+
+
+    Web サーバーを起動する
+
+    コピペのあと
+    http://127.0.0.1:8000/
+    行ってロケット出てたらここまではできた
